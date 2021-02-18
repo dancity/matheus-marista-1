@@ -11,10 +11,10 @@ export default function Header() {
   return (
     <Container>
       <CardsContainer>
-        <img src={Cards}></img>
+        <img src={Cards} alt="Cards"></img>
       </CardsContainer>
       <ButtonContainer>
-        <img src={Button}></img>
+        <img src={Button} alt="Button"></img>
       </ButtonContainer>
 
       <h1>Arrasta pra cima!</h1>
