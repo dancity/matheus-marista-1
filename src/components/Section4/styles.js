@@ -1,0 +1,50 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  min-height: 100vh;
+  color: whitesmoke;
+
+  div {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  h1 {
+    font-family: Raleway-Thin;
+    font-size: 64px;
+    margin: 10px;
+    margin-bottom: 28px;
+  }
+
+  p {
+    font-family: Raleway-Medium;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    text-indent: 50px;
+    margin-bottom: 30px;
+  }
+
+  span {
+    color: #d24a00;
+  }
+`;
+
+export const Skills = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  p {
+    text-indent: 0;
+    background-color: #858585;
+    border-radius: 28px;
+    padding: 2px 10px 2px 10px;
+    margin: 5px;
+  }
+`;
