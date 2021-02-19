@@ -21,14 +21,6 @@ export const Container = styled.div`
     margin-bottom: 28px;
   }
 
-  h2 {
-    font-family: Raleway-Thin;
-    font-size: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    line-height: 1.8;
-  }
-
   p {
     font-family: Raleway-Medium;
     font-size: 16px;
@@ -36,11 +28,6 @@ export const Container = styled.div`
     line-height: 1.8;
     text-indent: 50px;
     margin-bottom: 30px;
-  }
-
-  p:last-child {
-    text-indent: 0;
-    color: #b8b8b8;
   }
 
   span {
