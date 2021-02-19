@@ -23,7 +23,7 @@ export default function Section4() {
           programação em VBA no Excel. Consegui automatizar diversas tarefas e
           processos repetitivos, reduzindo drasticamente o retrabalho e o
           consumo de tempo. Agora, decidi levar isso ao próximo nível e estou
-          estudando JavaScript, que utilizei para desenvolver este site e que,
+          estudando <span>JavaScript</span>, que utilizei para desenvolver este site e que,
           futuramente, me abrirá portas para lidar com tecnologias como Big
           data, Machine Learning, Inteligência Artificial entre outras
           tecnologias que serão importantes para todos profissionais

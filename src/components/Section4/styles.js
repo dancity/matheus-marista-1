@@ -10,9 +10,9 @@ export const Container = styled.div`
   min-height: 100vh;
   color: whitesmoke;
 
-  div {
-    max-width: 70%;
-    margin: auto;
+  > div {
+    max-width: 100%;
+    padding: 115px 180px;
   }
 
   h1 {
@@ -31,6 +31,11 @@ export const Container = styled.div`
     margin-bottom: 30px;
   }
 
+  p + p + p{
+    text-indent: 0px;
+    margin-bottom: 5px;
+  }
+
   span {
     color: #d24a00;
   }
@@ -40,11 +45,15 @@ export const Skills = styled.div`
   display: flex;
   flex-direction: row;
 
-  p {
+  p{
     text-indent: 0;
     background-color: #858585;
     border-radius: 28px;
     padding: 2px 10px 2px 10px;
     margin: 5px;
+  }
+
+  p:first-child {
+    margin: 5px 0px;
   }
 `;
