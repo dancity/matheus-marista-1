@@ -10,8 +10,8 @@ export const Container = styled.div`
   color: #222222;
 
   div {
-    max-width: 70%;
-    margin: auto;
+    max-width: 100%;
+    padding: 115px 180px;
   }
 
   h1 {

@@ -5,23 +5,29 @@ export const Container = styled.div`
   flex-direction: row;
   background-color: #222222;
   align-items: center;
-  justify-content: center;
   padding: 25px;
   min-height: 100vh;
   color: whitesmoke;
 
-  img {
-    float: left;
-    padding: 10px;
-    margin-top: 60px;
+  > div {
     max-width: 100%;
-    max-height: 100%;
+    padding: 115px 180px;
+    display: flex;
+    flex-direction: row;
   }
 
-  div {
-    max-width: 70%;
-    margin: auto;
+  img {
+    padding: 10px;
+    margin-top: 60px;
+    margin-right: 50px;
+    max-width: 450px;
+    max-height: 450px;
   }
+`;
+
+export const Post = styled.div`
+  display: flex;
+  flex-direction: column;
 
   h1 {
     font-family: Raleway-Thin;
@@ -43,9 +49,4 @@ export const Container = styled.div`
   span {
     color: #d24a00;
   }
-`;
-
-export const Post = styled.div`
-  display: flex;
-  flex-direction: column;
 `;

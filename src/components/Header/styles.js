@@ -6,8 +6,8 @@ export const Container = styled.div`
   background-color: #222222;
   align-items: center;
   justify-content: center;
-  padding: 25px;
   min-height: 100vh;
+  min-width: 100%;
 
   /*Shadow*/
   box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -15,8 +15,13 @@ export const Container = styled.div`
   -moz-box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
 
   img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 650px;
+    max-height: 650px;
+  }
+
+  img + img {
+    max-width: 400px;
+    max-height: 400px;
   }
 
   h1 {
