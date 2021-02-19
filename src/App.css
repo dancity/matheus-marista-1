@@ -11,3 +11,17 @@
   font-weight: normal;
   src: url('./assets/fonts/Raleway-Medium.ttf') format('opentype');
 }
+
+@font-face {
+  font-family: 'Raleway-ExtraLight';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Raleway-ExtraLight.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Raleway-Regular.ttf') format('opentype');
+}
