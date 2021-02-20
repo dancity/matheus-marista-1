@@ -10,6 +10,11 @@ export const Container = styled.div`
   min-height: 100vh;
   color: whitesmoke;
 
+  /*Shadow*/
+  box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
+
   > div {
     max-width: 100%;
     padding: 115px 180px;
@@ -31,7 +36,7 @@ export const Container = styled.div`
     margin-bottom: 30px;
   }
 
-  p + p + p{
+  p + p + p {
     text-indent: 0px;
     margin-bottom: 5px;
   }
@@ -45,7 +50,7 @@ export const Skills = styled.div`
   display: flex;
   flex-direction: row;
 
-  p{
+  p {
     text-indent: 0;
     background-color: #858585;
     border-radius: 28px;

@@ -1,11 +1,22 @@
 import React from "react";
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import { RiArrowDownSLine } from "react-icons/ri";
-
-import { MdSchool } from "react-icons/md";
-
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 import { Container } from "./styles";
+
+//Importando Icones
+import { MdSchool, MdWork } from "react-icons/md";
+import { FaBaby } from "react-icons/fa";
+import { IoBookSharp, IoTrophy } from "react-icons/io5";
+
+//Importando Imagens
+import CaboFrio from "../../assets/images/caboFrio.jpg";
+import FotoMarista from "../../assets/images/MaristaBrasilia.jpg";
+import Bachareu from "../../assets/images/Bachareu.png";
+import ChcLogo from "../../assets/images/CHCLogo.png";
+import Airswift from "../../assets/images/Airswift.png";
 
 export default function Timeline() {
   return (
@@ -14,94 +25,177 @@ export default function Timeline() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }} //Card com texto
-          contentArrowStyle={{ borderRight: '7px solid  #000' }} //Setinha card apontando pra bolinha
-          date="2011 - Hoje" //data das paradas
-          iconStyle={{ background: 'rgb(33, 150, 21)', color: '#fff' }} //Cor da bolinha / Cor do ícone
-          icon={<MdSchool />} //Icon: https://react-icons.github.io/react-icons/
+          contentStyle={{ background: "white", color: "#000" }} //Card com texto
+          contentArrowStyle={{ borderRight: "7px solid  white" }} //Setinha card apontando pra bolinha
+          dateClassName={"date"}
+          date="1997" //data das paradas
+          iconStyle={{ background: "rgb(33, 150, 21)", color: "#fff" }} //Cor da bolinha / Cor do ícone
+          icon={<FaBaby />} //Icon: https://react-icons.github.io/react-icons/
         >
-          <img
-            src="https://scontent.fbsb3-1.fna.fbcdn.net/v/t1.0-9/379147_304732659566868_459341197_n.jpg?_nc_cat=111&ccb=3&_nc_sid=cdbe9c&_nc_eui2=AeHlK1oaY2h0y30YLteqnQbe9giI652CZbz2CIjrnYJlvExHe1aQnFYYLh8zzXrNYgUnbC0dBfrBSg0uqY0u8OKf&_nc_ohc=ktrLLqseR20AX-jcU4z&_nc_ht=scontent.fbsb3-1.fna&oh=3896b814fdc48a90b548824e629e69ea&oe=6053AB4E"
-            alt="eu"
-            style={{ width: 200, height: 200 }}
-          />
+          <h3 className="vertical-timeline-element-title">Nascimento</h3>
+          <h4 className="vertical-timeline-element-subtitle">Cabo Frio, RJ</h4>
+
+          <img src={CaboFrio} alt="Cabo Frio" />
+          <p>Uma infância tranquila e saudável em Cabo Frio</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<RiArrowDownSLine />}
+          dateClassName={"date"}
+          date="2011"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdSchool />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-        </p>
+          <h3 className="vertical-timeline-element-title">
+            Formação no ensino fundamental
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Brasília, DF</h4>
+
+          <img src={FotoMarista} alt="Marista" />
+          <p>9º ano do Ensino Fundamental - Marista João Paulo II</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<RiArrowDownSLine />}
+          dateClassName={"date"}
+          date="2014 - 2015"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdSchool />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+          <h3 className="vertical-timeline-element-title">
+            Aprovação no Vestibular e Ingresso na UERJ
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Rio de Janeiro, RJ
+          </h4>
           <p>
-            User Experience, Visual Design
-    </p>
+            Curso de Administração de Empresas na Universidade do Estado do Rio
+            de Janeiro
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<RiArrowDownSLine />}
+          dateClassName={"date"}
+          date="2014 - 2015"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdSchool />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+          <h3 className="vertical-timeline-element-title">
+            Entrega da Monografia - TCC em Administração
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Rio de Janeiro, RJ
+          </h4>
           <p>
-            User Experience, Visual Design
-    </p>
+            Tema do trabalho: A influência dos diversos tipos de enviesamento
+            cognitivo no resultado de processos seletivos em empresas.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="April 2013"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<RiArrowDownSLine />}
+          className="vertical-timeline-element--work"
+          dateClassName={"date"}
+          date="2015 - 2019"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdSchool />}
         >
-          <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>
-            Strategy, Social Media
-    </p>
+          <h3 className="vertical-timeline-element-title">
+            Bacharelado em Administração de Empresas
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Rio de Janeiro, RJ
+          </h4>
+
+          <img src={Bachareu} alt="Bacharéu em Administração" />
+          <p>Universidade do Estado do Rio de Janeiro (UERJ)</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="November 2012"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<RiArrowDownSLine />}
+          className="vertical-timeline-element--work"
+          dateClassName={"date"}
+          date="2018 - 2020"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWork />}
         >
-          <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design
-    </p>
+          <h3 className="vertical-timeline-element-title">CHC Helicopter</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Rio de Janeiro, RJ
+          </h4>
+
+          <img src={ChcLogo} alt="CHC Logo" />
+          <p>Ultimo Cargo: Analista de Recursos Humanos</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<RiArrowDownSLine />}
+          className="vertical-timeline-element--work"
+          dateClassName={"date"}
+          date="2018"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<IoTrophy />}
         >
-          <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-          <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+          <h3 className="vertical-timeline-element-title">
+            Reconhecimento Inovação
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">CHC Helicopter</h4>
           <p>
-            Creative Direction, Visual Design
-    </p>
+            Reconhecido através de votação entre os funcionários por criar
+            soluções liderar a mudança.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-          icon={<RiArrowDownSLine />}
-        />
+          className="vertical-timeline-element--work"
+          dateClassName={"date"}
+          date="2019"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<IoTrophy />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Reconhecimento Projeto Bolt
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">CHC Helicopter</h4>
+          <p>
+            Reconhecido e premiado pela participação chave no Projeto Bolt, que
+            tinha como objetivo iniciar as operações da CHC em Campos dos
+            Goytacazes, RJ.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          dateClassName={"date"}
+          date="2019"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<IoBookSharp />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Certificação em Excel e VBA
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Udemy</h4>
+          <p>Curso de Excel e VBA certificado pela plataforma Udemy</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          dateClassName={"date"}
+          date="2021 - Hoje"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<IoBookSharp />}
+        >
+          <h3 className="vertical-timeline-element-title">JavaScript</h3>
+          <h4 className="vertical-timeline-element-subtitle">Udemy</h4>
+          <p>
+            Início do Curso Avançado de JavaScript certificado pela plataforma
+            Udemy
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          dateClassName={"date"}
+          date="2021 - Hoje"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWork />}
+        >
+          <h3 className="vertical-timeline-element-title">Airswift</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Rio de Janeiro, RJ
+          </h4>
+
+          <img src={Airswift} alt="Airswift Logo" />
+          <p>Ultimo Cargo: Strategic Resourcer</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </Container>
   );
