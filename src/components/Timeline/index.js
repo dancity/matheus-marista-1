@@ -6,6 +6,9 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Container } from "./styles";
 
+//Importando botão de mostrar mais
+import ShowMore from "./ShowMore/index";
+
 //Importando Icones
 import { MdSchool, MdWork } from "react-icons/md";
 import { FaBaby } from "react-icons/fa";
@@ -120,6 +123,7 @@ export default function Timeline() {
 
           <img src={ChcLogo} alt="CHC Logo" />
           <p>Ultimo Cargo: Analista de Recursos Humanos</p>
+          <ShowMore id="chc" />
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
