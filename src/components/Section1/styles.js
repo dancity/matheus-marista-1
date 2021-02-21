@@ -9,6 +9,10 @@ export const Container = styled.div`
   min-height: 100vh;
   color: #222222;
 
+  element {
+    background-color: red !important;
+  }
+
   div {
     max-width: 100%;
     padding: 115px 180px;

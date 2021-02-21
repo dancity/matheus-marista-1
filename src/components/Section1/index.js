@@ -4,7 +4,7 @@ import { Container } from "./styles";
 
 export default function Section1() {
   return (
-    <Container>
+    <Container name="section1">
       <div>
         <h1>
           Um profissional que

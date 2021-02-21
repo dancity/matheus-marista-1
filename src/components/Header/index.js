@@ -7,6 +7,16 @@ import Button from "../../assets/images/buttonMatch.png";
 
 import { Container, CardsContainer, ButtonContainer } from "./styles";
 
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
+
 export default function Header() {
   return (
     <Container>
@@ -22,7 +32,9 @@ export default function Header() {
       </ButtonContainer>
 
       <h3>Arrasta pra cima!</h3>
-      <RiArrowDownSLine />
+      <RiArrowDownSLine
+        onClick={() => scroller.scrollTo("section1", { smooth: true })}
+      />
     </Container>
   );
 }
