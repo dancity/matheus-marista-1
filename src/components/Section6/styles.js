@@ -27,7 +27,12 @@ export const Container = styled.div`
     margin-bottom: 28px;
   }
 
-  p {
+  span {
+    color: #d24a00;
+  }
+
+  p,
+  h2 {
     font-family: Raleway-Medium;
     font-size: 16px;
     text-align: justify;
@@ -36,36 +41,31 @@ export const Container = styled.div`
     margin-bottom: 30px;
   }
 
-  p + p + p {
-    text-indent: 0px;
-    margin-bottom: 5px;
+  h2 {
+    color: #b8b8b8;
+    font-family: Raleway-Thin;
+    text-indent: 0;
+    text-align: right;
   }
 
-  span {
-    color: #d24a00;
+  hr {
+    border: 1px solid #b8b8b8;
+    opacity: 0.1;
   }
 `;
 
-export const Skills = styled.div`
+export const Quote = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 
-  p:last-child {
-    text-indent: 0;
-  }
-
-  span {
-    display: inline-block;
-    white-space: nowrap;
-    color: white !important;
-
-    background-color: #858585;
-    border-radius: 28px;
-    padding: 2px 10px 2px 10px;
-    margin: 5px;
-  }
-
-  span:first-child {
-    margin: 5px 0px;
+  img {
+    border: 2px solid #b8b8b8;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    margin-right: 50px;
   }
 `;

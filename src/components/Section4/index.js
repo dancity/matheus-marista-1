@@ -23,9 +23,9 @@ export default function Section4() {
           programação em VBA no Excel. Consegui automatizar diversas tarefas e
           processos repetitivos, reduzindo drasticamente o retrabalho e o
           consumo de tempo. Agora, decidi levar isso ao próximo nível e estou
-          estudando <span>JavaScript</span>, que utilizei para desenvolver este site e que,
-          futuramente, me abrirá portas para lidar com tecnologias como Big
-          data, Machine Learning, Inteligência Artificial entre outras
+          estudando <span>JavaScript</span>, que utilizei para desenvolver este
+          site e que, futuramente, me abrirá portas para lidar com tecnologias
+          como Big data, Machine Learning, Inteligência Artificial entre outras
           tecnologias que serão importantes para todos profissionais
           administrativos pois geram um aumento de produtividade expressivo e
           auxiliam a tomada de decisão dos gestores.
@@ -34,8 +34,19 @@ export default function Section4() {
           <span>Minha Skillset</span>
         </p>
         <Skills>
-          <p>JavaScript</p> <p>Microsoft Office</p> <p>VBA</p> <p>Bizagi</p>
-          <p>Adobe Photoshop</p> <p>Adobe XD</p> <p>Davinci Resolve</p>
+          <p>
+            <span>JavaScript</span>
+            <span>VBA</span>
+            <span>Microsoft Excel</span>
+            <span>Microsoft PowerPoint</span>
+            <span>Microsoft Word</span>
+            <span>Bizagi</span>
+            <span>Adobe Photoshop</span>
+            <span>Adobe XD</span>
+            <span>Davinci Resolve</span>
+            <span>Workday</span>
+            <span>iCIMS</span>
+          </p>
         </Skills>
       </div>
     </Container>

@@ -22,7 +22,7 @@ export const ThanksContainer = styled.div`
   flex: 1;
   align-items: center;
   justify-content: center;
-  background: #D24A00;
+  background: #d24a00;
   width: 100%;
 `;
 
@@ -32,7 +32,7 @@ export const InfosContainer = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  background: #2C2C2C;
+  background: #2c2c2c;
   width: 100%;
   padding-right: 30px;
 
@@ -48,4 +48,3 @@ export const InfosContainer = styled.div`
     margin-top: 6px;
   }
 `;
-

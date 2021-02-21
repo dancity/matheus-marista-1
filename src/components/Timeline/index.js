@@ -32,7 +32,7 @@ export default function Timeline() {
           contentArrowStyle={{ borderRight: "7px solid  white" }} //Setinha card apontando pra bolinha
           dateClassName={"date"}
           date="1997" //data das paradas
-          iconStyle={{ background: "rgb(33, 150, 21)", color: "#fff" }} //Cor da bolinha / Cor do ícone
+          iconStyle={{ background: "darkslateblue", color: "#fff" }} //Cor da bolinha / Cor do ícone
           icon={<FaBaby />} //Icon: https://react-icons.github.io/react-icons/
         >
           <h3 className="vertical-timeline-element-title">Nascimento</h3>
@@ -45,7 +45,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "goldenrod", color: "#fff" }}
           icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -60,7 +60,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2014 - 2015"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "goldenrod", color: "#fff" }}
           icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -78,7 +78,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2014 - 2015"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "goldenrod", color: "#fff" }}
           icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -96,7 +96,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2015 - 2019"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "goldenrod", color: "#fff" }}
           icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -113,7 +113,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2018 - 2020"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "darkred", color: "#fff" }}
           icon={<MdWork />}
         >
           <h3 className="vertical-timeline-element-title">CHC Helicopter</h3>
@@ -129,7 +129,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2018"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "green", color: "#fff" }}
           icon={<IoTrophy />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -145,7 +145,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2019"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "green", color: "#fff" }}
           icon={<IoTrophy />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -162,7 +162,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2019"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "midnightblue", color: "#fff" }}
           icon={<IoBookSharp />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -175,7 +175,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2021 - Hoje"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "midnightblue", color: "#fff" }}
           icon={<IoBookSharp />}
         >
           <h3 className="vertical-timeline-element-title">JavaScript</h3>
@@ -189,7 +189,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           dateClassName={"date"}
           date="2021 - Hoje"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "darkred", color: "#fff" }}
           icon={<MdWork />}
         >
           <h3 className="vertical-timeline-element-title">Airswift</h3>

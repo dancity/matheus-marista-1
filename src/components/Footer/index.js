@@ -11,7 +11,12 @@ export default function Footer() {
       <InfosContainer>
         <p>Email: matheusleaorangel@gmail.com</p>
         <p>Telefone: (21) 98340-9000</p>
-        <a href="https://www.linkedin.com/in/matheusleaorangel/">Meu Linkedin</a>
+        <a
+          href="https://www.linkedin.com/in/matheusleaorangel/"
+          target="_blank"
+        >
+          Meu Linkedin
+        </a>
       </InfosContainer>
     </Container>
   );
