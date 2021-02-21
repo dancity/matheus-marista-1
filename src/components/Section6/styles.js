@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bgimage from "../../assets/images/quote.svg";
 
 export const Container = styled.div`
   display: flex;
@@ -60,6 +61,10 @@ export const Quote = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  background-image: url(${bgimage});
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-x: 100px;
 
   img {
     border: 2px solid #b8b8b8;

@@ -14,6 +14,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/matheusleaorangel/"
           target="_blank"
+          rel="noreferrer"
         >
           Meu Linkedin
         </a>
