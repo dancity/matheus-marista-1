@@ -2,6 +2,7 @@ import "./App.css";
 
 import GlobalStyles from "./styles/global";
 
+import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
@@ -15,6 +16,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+      <Navbar />
       <GlobalStyles />
       <Header />
       <Section1 />

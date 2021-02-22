@@ -6,7 +6,7 @@ import { Container, Post } from "./styles";
 
 export default function Section2() {
   return (
-    <Container>
+    <Container name="section2">
       <div>
         <img src={Uerj} alt="Uerj"></img>
         <Post>

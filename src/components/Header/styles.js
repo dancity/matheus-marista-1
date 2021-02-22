@@ -17,6 +17,11 @@ export const Container = styled.div`
   img {
     max-width: 650px;
     max-height: 650px;
+
+    /* ANIMATION */
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   }
 
   img + img {

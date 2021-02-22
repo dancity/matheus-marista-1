@@ -23,7 +23,7 @@ import Airswift from "../../assets/images/Airswift.png";
 
 export default function Timeline() {
   return (
-    <Container>
+    <Container name="timeline">
       <h1>Minha História</h1>
       <VerticalTimeline>
         <VerticalTimelineElement

@@ -4,7 +4,7 @@ import { Container } from "./styles";
 
 export default function Section3() {
   return (
-    <Container>
+    <Container name="section3">
       <div>
         <h1>
           A <span>paixão</span> move

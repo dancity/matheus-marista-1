@@ -8,7 +8,7 @@ import Andre from "../../assets/images/andre.jpg";
 
 export default function Section6() {
   return (
-    <Container>
+    <Container name="section6">
       <div>
         <h1>
           <span>Recomendado</span>

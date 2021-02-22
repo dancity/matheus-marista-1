@@ -19,7 +19,7 @@ import {
 
 export default function Header() {
   return (
-    <Container>
+    <Container name="header">
       <h1>Matheus Rangel</h1>
       <h2>
         O próximo trainee do <span>Marista</span>

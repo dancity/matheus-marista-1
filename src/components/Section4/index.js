@@ -4,7 +4,7 @@ import { Container, Skills } from "./styles";
 
 export default function Section4() {
   return (
-    <Container>
+    <Container name="section4">
       <div>
         <h1>
           Sempre de olho nas
