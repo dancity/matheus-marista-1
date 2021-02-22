@@ -30,7 +30,7 @@ export default function Section2() {
             Cognitivos no processo de recrutamento e seleção. Nele discuti sobre
             a forma que nosso cérebro têm de afetar negativamente nossa tomada
             de decisão por meio de associações cognitivas enganosas e como isso
-            poderia afetar um recrutador.
+            poderia afetar o trabalho de um recrutador.
           </p>
         </Post>
       </div>
