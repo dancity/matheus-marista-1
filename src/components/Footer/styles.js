@@ -15,6 +15,17 @@ export const Container = styled.div`
     font-size: 28px;
     margin: 10px;
   }
+
+  @media (max-width: 450px) {
+    min-height: 200px;
+
+    h1 {
+    color: #000;
+    font-family: Raleway-Medium;
+    font-size: 20px;
+    margin: 10px;
+  }
+  }
 `;
 
 export const ThanksContainer = styled.div`
@@ -24,6 +35,7 @@ export const ThanksContainer = styled.div`
   justify-content: center;
   background: #d24a00;
   width: 100%;
+  text-align: center;
 `;
 
 export const InfosContainer = styled.div`
@@ -40,11 +52,27 @@ export const InfosContainer = styled.div`
     color: #fff;
     font-family: Raleway-Medium;
     margin-top: 6px;
-  }
 
   a {
-    color: #fff;
-    font-family: Raleway-Medium;
-    margin-top: 6px;
+      color: #fff;
+      font-family: Raleway-Medium;
+      margin-top: 6px;
+    }
   }
+
+  @media (max-width: 450px) {
+      padding: 15px;
+      p {
+        font-size: 14px;
+        margin-top: 4px;
+      }
+
+      a {
+      color: #fff;
+      font-family: Raleway-Medium;
+      margin-top: 6px;
+      font-size: 14px;
+      }
+
+    }
 `;

@@ -9,6 +9,7 @@ export const Container = styled.div`
   min-height: 100vh;
   min-width: 100%;
 
+
   /*Shadow*/
   box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.5);
@@ -59,6 +60,92 @@ export const Container = styled.div`
     cursor: pointer;
     color: whitesmoke;
   }
+
+  // Mobile
+  @media (max-width: 450px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-width: 250px;
+      max-height: 250px;
+
+      /* ANIMATION */
+      -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+        both;
+      animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+
+    img + img {
+    max-width: 200px;
+    max-height: 200px;
+    }
+
+    h1 {
+    color: whitesmoke;
+    font-family: Raleway-Medium;
+    font-size: 40px;
+    margin: 10px;
+    }
+
+    h2 {
+      color: whitesmoke;
+      font-family: Raleway-Thin;
+      font-size: 25px;
+      margin-bottom: 60px;
+    }
+
+    h3 {
+      color: whitesmoke;
+      font-family: Raleway-Thin;
+      margin: 25px;
+    }
+  }
+
+  // Mobile
+  @media (max-width: 450px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-width: 250px;
+      max-height: 250px;
+
+      /* ANIMATION */
+      -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+        both;
+      animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+
+    img + img {
+    max-width: 200px;
+    max-height: 200px;
+    }
+
+    h1 {
+    color: whitesmoke;
+    font-family: Raleway-Medium;
+    font-size: 40px;
+    margin: 10px;
+    }
+
+    h2 {
+      color: whitesmoke;
+      font-family: Raleway-Thin;
+      font-size: 25px;
+      margin-bottom: 60px;
+    }
+
+    h3 {
+      color: whitesmoke;
+      font-family: Raleway-Thin;
+      margin: 25px;
+    }
+  }
 `;
 
 export const CardsContainer = styled.div`
@@ -69,3 +156,5 @@ export const ButtonContainer = styled.div`
   margin-bottom: 15px;
   cursor: pointer;
 `;
+
+

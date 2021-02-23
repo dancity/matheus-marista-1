@@ -17,7 +17,7 @@ export const Container = styled.div`
   -moz-box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
 
   > div {
-    max-width: 100%;
+    width: 100%;
     padding: 115px 180px;
   }
 
@@ -32,7 +32,6 @@ export const Container = styled.div`
     color: #d24a00;
   }
 
-  p,
   h2 {
     font-family: Raleway-Medium;
     font-size: 16px;
@@ -53,6 +52,33 @@ export const Container = styled.div`
     border: 1px solid #b8b8b8;
     opacity: 0.1;
   }
+
+  // Mobile
+  @media (max-width: 450px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > div {
+    width: 100%;
+    padding: 25px 25px;
+  }
+
+    h1 {
+    color: whitesmoke;
+    font-family: Raleway-Medium;
+    font-size: 28px;
+    margin: 10px;
+    }
+
+    h2 {
+    color: #b8b8b8;
+    font-family: Raleway-Thin;
+    text-align: center;
+    padding-top: 25px;
+  }
+  }
 `;
 
 export const Quote = styled.div`
@@ -72,5 +98,20 @@ export const Quote = styled.div`
     max-height: 80px;
     border-radius: 50%;
     margin-right: 50px;
+  }
+`;
+
+export const Person = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin: 25px 5px 15px 0px;
+
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
   }
 `;

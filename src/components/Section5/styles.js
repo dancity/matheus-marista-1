@@ -10,7 +10,7 @@ export const Container = styled.div`
   color: #222222;
 
   div {
-    max-width: 100%;
+    min-width: 100%;
     padding: 115px 180px;
   }
 
@@ -32,5 +32,21 @@ export const Container = styled.div`
 
   span {
     color: #d24a00;
+  }
+
+  @media (max-width: 450px) {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+    > div {
+    width: 100%;
+    padding: 25px 25px;
+    }
+
+    h1 {
+      font-size: 34px;
+    }
   }
 `;

@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
 
   div {
-    max-width: 100%;
+    width: 100%;
     padding: 115px 180px;
   }
 
@@ -49,5 +49,32 @@ export const Container = styled.div`
 
   span {
     color: #d24a00;
+  }
+
+  // Mobile
+  @media (max-width: 450px) {
+    width: 100%;
+    display: flex;
+    padding: 0px;
+
+    div {
+    min-width: 100%;
+    padding: 25px 25px;
+  }
+
+    h1 {
+    font-family: Raleway-Thin;
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 28px;
+  }
+
+  h2 {
+    font-family: Raleway-Thin;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.8;
+  }
   }
 `;
