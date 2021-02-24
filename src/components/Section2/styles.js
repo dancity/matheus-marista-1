@@ -17,7 +17,7 @@ export const Container = styled.div`
   -moz-box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
 
   div:first-child {
-    width: 80%;
+    width: 70%;
     //padding: 115px 180px;
   }
 

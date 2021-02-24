@@ -10,7 +10,7 @@ export const Container = styled.div`
   color: #222222;
 
   div {
-    width: 80%;
+    width: 70%;
     //padding: 115px 180px;
   }
 
