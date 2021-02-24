@@ -19,9 +19,9 @@ export default function Section1() {
           da Universidade do Estado do Rio de Janeiro, iniciei minha trajetória
           profissional em 2018 como Estagiário de Recursos Humanos na CHC, uma
           empresa multinacional no ramo de transportes aéreos. Me destaquei por
-          ser um profissional inovador e proativo. Pouco tempo depois fui
-          efetivado como Analista de Recursos Humanos, cargo que exerci até
-          Março de 2020.
+          ser um profissional inovador e proativo, conseguindo assim pouco tempo
+          depois ser efetivado como Analista de Recursos Humanos, cargo que
+          exerci até Junho de 2020.
         </p>
         <p>
           Como ex-aluno Marista, acredito no poder da transformação da sociedade

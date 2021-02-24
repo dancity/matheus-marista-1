@@ -10,7 +10,7 @@ export default function Section4() {
           Sempre de olho nas <span>novas tecnologias.</span>
         </h1>
         <p>
-          As tecnologias disruptivas definirão as empresas do futuro, por isso
+          As tecnologias disruptivas definirão as empresas do futuro, por isso,
           hoje a procura por profissionais que entendam de programação é cada
           vez maior. Por entender essa tendência de mercado sempre me mantenho
           atualizado, na medida do possível, sobre esses assuntos.
