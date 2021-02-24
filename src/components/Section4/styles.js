@@ -16,8 +16,8 @@ export const Container = styled.div`
   -moz-box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
 
   > div {
-    min-width: 100%;
-    padding: 115px 180px;
+    width: 80%;
+    //padding: 115px 180px;
   }
 
   h1 {
@@ -44,15 +44,15 @@ export const Container = styled.div`
   span {
     color: #d24a00;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 730px) {
     width: 100%;
     display: flex;
     padding: 0;
     justify-content: center;
 
     > div {
-    width: 100%;
-    padding: 25px 25px;
+      width: 100%;
+      padding: 25px 25px;
     }
 
     h1 {

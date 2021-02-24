@@ -22,4 +22,13 @@ export const Navigation = styled.div`
     height: 30px;
     cursor: pointer;
   }
+
+  // Mobile
+  @media (max-width: 1170px) {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+    display: none;
+  }
 `;

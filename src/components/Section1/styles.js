@@ -9,13 +9,9 @@ export const Container = styled.div`
   min-height: 100vh;
   color: #222222;
 
-  element {
-    background-color: red !important;
-  }
-
   div {
-    width: 100%;
-    padding: 115px 180px;
+    width: 80%;
+    //padding: 115px 180px;
   }
 
   h1 {
@@ -52,29 +48,29 @@ export const Container = styled.div`
   }
 
   // Mobile
-  @media (max-width: 450px) {
+  @media (max-width: 730px) {
     width: 100%;
     display: flex;
     padding: 0px;
 
     div {
-    min-width: 100%;
-    padding: 25px 25px;
-  }
+      width: 100%;
+      padding: 25px 25px;
+    }
 
     h1 {
-    font-family: Raleway-Thin;
-    font-size: 30px;
-    margin: 10px;
-    margin-bottom: 28px;
-  }
+      font-family: Raleway-Thin;
+      font-size: 34px;
+      margin: 10px;
+      margin-bottom: 28px;
+    }
 
-  h2 {
-    font-family: Raleway-Thin;
-    font-size: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    line-height: 1.8;
-  }
+    h2 {
+      font-family: Raleway-Thin;
+      font-size: 16px;
+      margin-bottom: 30px;
+      text-align: center;
+      line-height: 1.8;
+    }
   }
 `;

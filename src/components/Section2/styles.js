@@ -5,8 +5,10 @@ export const Container = styled.div`
   flex-direction: row;
   background-color: #222222;
   align-items: center;
+  justify-content: center;
   padding: 25px;
   min-height: 100vh;
+  width: 100%;
   color: whitesmoke;
 
   /*Shadow*/
@@ -14,9 +16,12 @@ export const Container = styled.div`
   -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
 
+  div:first-child {
+    width: 80%;
+    //padding: 115px 180px;
+  }
+
   > div {
-    min-width: 100%;
-    padding: 115px 180px;
     display: flex;
     flex-direction: row;
   }
@@ -29,23 +34,29 @@ export const Container = styled.div`
     max-height: 450px;
   }
 
-  @media (max-width: 450px) {
-    width: 100%;
-    display: flex;
-    padding: 0;
-    justify-content: center;
-
-    > div {
-    flex-direction: row;
-    padding: 25px 25px;
-  }
-
+  @media (max-width: 1470px) {
     img {
       max-width: 0px;
       max-height: 0px;
       display: none;
       padding: 0;
       margin: 0;
+    }
+  }
+
+  @media (max-width: 730px) {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+    div:first-child {
+      width: 100%;
+    }
+
+    > div {
+      flex-direction: row;
+      padding: 25px 25px;
     }
   }
 `;
@@ -75,7 +86,7 @@ export const Post = styled.div`
     color: #d24a00;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 730px) {
     h1 {
       font-family: Raleway-Thin;
       font-size: 34px;

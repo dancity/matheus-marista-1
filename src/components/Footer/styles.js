@@ -20,11 +20,11 @@ export const Container = styled.div`
     min-height: 200px;
 
     h1 {
-    color: #000;
-    font-family: Raleway-Medium;
-    font-size: 20px;
-    margin: 10px;
-  }
+      color: #000;
+      font-family: Raleway-Medium;
+      font-size: 20px;
+      margin: 10px;
+    }
   }
 `;
 
@@ -52,27 +52,26 @@ export const InfosContainer = styled.div`
     color: #fff;
     font-family: Raleway-Medium;
     margin-top: 6px;
-
-  a {
-      color: #fff;
-      font-family: Raleway-Medium;
-      margin-top: 6px;
-    }
   }
 
-  @media (max-width: 450px) {
-      padding: 15px;
-      p {
-        font-size: 14px;
-        margin-top: 4px;
-      }
+  a {
+    color: #fff;
+    font-family: Raleway-Medium;
+    margin-top: 6px;
+  }
 
-      a {
+  @media (max-width: 730px) {
+    padding: 15px;
+    p {
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    a {
       color: #fff;
       font-family: Raleway-Medium;
       margin-top: 6px;
       font-size: 14px;
-      }
-
     }
+  }
 `;

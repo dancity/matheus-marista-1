@@ -9,7 +9,6 @@ export const Container = styled.div`
   min-height: 100vh;
   min-width: 100%;
 
-
   /*Shadow*/
   box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.5);
@@ -62,7 +61,7 @@ export const Container = styled.div`
   }
 
   // Mobile
-  @media (max-width: 450px) {
+  @media (max-width: 730px) {
     width: 100%;
     display: flex;
     align-items: center;
@@ -73,21 +72,21 @@ export const Container = styled.div`
       max-height: 250px;
 
       /* ANIMATION */
-      -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-        both;
+      -webkit-animation: scale-up-center 0.4s
+        cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     }
 
     img + img {
-    max-width: 200px;
-    max-height: 200px;
+      max-width: 200px;
+      max-height: 200px;
     }
 
     h1 {
-    color: whitesmoke;
-    font-family: Raleway-Medium;
-    font-size: 40px;
-    margin: 10px;
+      color: whitesmoke;
+      font-family: Raleway-Medium;
+      font-size: 40px;
+      margin: 10px;
     }
 
     h2 {
@@ -116,21 +115,21 @@ export const Container = styled.div`
       max-height: 250px;
 
       /* ANIMATION */
-      -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-        both;
+      -webkit-animation: scale-up-center 0.4s
+        cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     }
 
     img + img {
-    max-width: 200px;
-    max-height: 200px;
+      max-width: 200px;
+      max-height: 200px;
     }
 
     h1 {
-    color: whitesmoke;
-    font-family: Raleway-Medium;
-    font-size: 40px;
-    margin: 10px;
+      color: whitesmoke;
+      font-family: Raleway-Medium;
+      font-size: 40px;
+      margin: 10px;
     }
 
     h2 {
@@ -156,5 +155,3 @@ export const ButtonContainer = styled.div`
   margin-bottom: 15px;
   cursor: pointer;
 `;
-
-

@@ -10,8 +10,8 @@ export const Container = styled.div`
   color: #222222;
 
   div {
-    min-width: 100%;
-    padding: 115px 180px;
+    width: 80%;
+    //padding: 115px 180px;
   }
 
   h1 {
@@ -34,15 +34,15 @@ export const Container = styled.div`
     color: #d24a00;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 730px) {
     width: 100%;
     display: flex;
     padding: 0;
     justify-content: center;
 
     > div {
-    width: 100%;
-    padding: 25px 25px;
+      width: 100%;
+      padding: 25px 25px;
     }
 
     h1 {

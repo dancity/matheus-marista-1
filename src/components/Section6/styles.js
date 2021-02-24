@@ -16,9 +16,18 @@ export const Container = styled.div`
   -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
 
-  > div {
-    width: 100%;
-    padding: 115px 180px;
+  div:first-child {
+    width: 80%;
+    //padding: 115px 180px;
+  }
+
+  p {
+    font-family: Raleway-Medium;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    text-indent: 50px;
+    margin-bottom: 30px;
   }
 
   h1 {
@@ -33,19 +42,13 @@ export const Container = styled.div`
   }
 
   h2 {
-    font-family: Raleway-Medium;
-    font-size: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    text-indent: 50px;
-    margin-bottom: 30px;
-  }
-
-  h2 {
-    color: #b8b8b8;
     font-family: Raleway-Thin;
-    text-indent: 0;
+    font-size: 16px;
     text-align: right;
+    line-height: 1.8;
+    text-indent: 0;
+    margin-bottom: 30px;
+    color: #b8b8b8;
   }
 
   hr {
@@ -54,30 +57,32 @@ export const Container = styled.div`
   }
 
   // Mobile
-  @media (max-width: 450px) {
+  @media (max-width: 730px) {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
+    div:first-child {
+      width: 100%;
+      padding: 0;
+    }
+
     > div {
-    width: 100%;
-    padding: 25px 25px;
-  }
+      padding: 25px 25px;
+    }
 
     h1 {
-    color: whitesmoke;
-    font-family: Raleway-Medium;
-    font-size: 28px;
-    margin: 10px;
+      font-size: 34px;
+      margin: 10px;
     }
 
     h2 {
-    color: #b8b8b8;
-    font-family: Raleway-Thin;
-    text-align: center;
-    padding-top: 25px;
-  }
+      color: #b8b8b8;
+      font-family: Raleway-Thin;
+      text-align: center;
+      padding-top: 25px;
+    }
   }
 `;
 
@@ -99,6 +104,10 @@ export const Quote = styled.div`
     border-radius: 50%;
     margin-right: 50px;
   }
+
+  @media (max-width: 730px) {
+    background-position-x: 0;
+  }
 `;
 
 export const Person = styled.div`
@@ -109,6 +118,7 @@ export const Person = styled.div`
   margin: 25px 5px 15px 0px;
 
   img {
+    border: 2px solid #b8b8b8;
     width: 60px;
     height: 60px;
     border-radius: 50%;
