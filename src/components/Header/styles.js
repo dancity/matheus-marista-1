@@ -153,5 +153,4 @@ export const CardsContainer = styled.div`
 
 export const ButtonContainer = styled.div`
   margin-bottom: 15px;
-  cursor: pointer;
 `;
