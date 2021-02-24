@@ -7,9 +7,7 @@ export default function Section3() {
     <Container name="section3">
       <div>
         <h1>
-          A <span>paixão</span> move
-          <br />
-          meu trabalho.
+          A <span>paixão</span> move meu trabalho.
         </h1>
         <p>
           Em 2018 a área de Recursos Humanos dispertou meu interesse por unir

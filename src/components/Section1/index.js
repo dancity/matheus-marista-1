@@ -7,13 +7,12 @@ export default function Section1() {
     <Container name="section1">
       <div>
         <h1>
-          Um profissional que
-          <br />
-          vai te <span>surpreender.</span>
+          Um profissional que vai te <span>surpreender.</span>
         </h1>
         <h2>
-          Esta página foi criada com única e exclusiva de convencer você de que
-          sou o match ideal para o programa de trainees do Grupo Marista
+          Esta página foi criada com a única e exclusiva intenção de convencer
+          você de que sou o match ideal para o programa de trainees do Grupo
+          Marista
         </h2>
         <p>
           Formado em Dezembro de 2019 pela Faculdade de Administração e Finanças

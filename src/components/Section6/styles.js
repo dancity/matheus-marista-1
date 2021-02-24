@@ -18,6 +18,9 @@ export const Container = styled.div`
 
   div:first-child {
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     //padding: 115px 180px;
   }
 
@@ -31,10 +34,12 @@ export const Container = styled.div`
   }
 
   h1 {
+    text-align: right;
     font-family: Raleway-Thin;
     font-size: 64px;
     margin: 10px;
     margin-bottom: 28px;
+    max-width: 500px;
   }
 
   span {
@@ -52,6 +57,7 @@ export const Container = styled.div`
   }
 
   hr {
+    align-self: stretch;
     border: 1px solid #b8b8b8;
     opacity: 0.1;
   }

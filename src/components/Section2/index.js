@@ -11,9 +11,7 @@ export default function Section2() {
         <img src={Uerj} alt="Uerj"></img>
         <Post>
           <h1>
-            Formação que prepara
-            <br />
-            para <span>desafios reais.</span>
+            Formação que prepara para <span>desafios reais.</span>
           </h1>
           <p>
             Com seus 44 anos de tradição, a Faculdade de Administração e

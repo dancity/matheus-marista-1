@@ -7,13 +7,7 @@ export default function Section5() {
     <Container name="section5">
       <div>
         <h1>
-          Por que sou o{" "}
-          <span>
-            match
-            <br />
-            ideal
-          </span>{" "}
-          para o Marista?
+          Por que sou o <span>match ideal</span> para o Marista?
         </h1>
         <p>
           Sou ex aluno do Marista João Paulo II de Brasília e só tenho

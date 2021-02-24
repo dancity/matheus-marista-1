@@ -7,9 +7,7 @@ export default function Section4() {
     <Container name="section4">
       <div>
         <h1>
-          Sempre de olho nas
-          <br />
-          <span>novas tecnologias.</span>
+          Sempre de olho nas <span>novas tecnologias.</span>
         </h1>
         <p>
           As tecnologias disruptivas definirão as empresas do futuro, por isso
@@ -30,10 +28,8 @@ export default function Section4() {
           administrativos pois geram um aumento de produtividade expressivo e
           auxiliam a tomada de decisão dos gestores.
         </p>
-        <p>
-          <span>Minha Skillset</span>
-        </p>
         <Skills>
+          <h2>Minha Skillset</h2>
           <p>
             <span>JavaScript</span>
             <span>VBA</span>

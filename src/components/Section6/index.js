@@ -15,9 +15,7 @@ export default function Section6() {
     <Container name="section6">
       <div>
         <h1>
-          <span>Recomendado</span>
-          <br />
-          por seus pares.
+          <span>Recomendado</span> por seus pares.
         </h1>
         {isMobile ? (
           <>
@@ -32,8 +30,9 @@ export default function Section6() {
             <Person>
               <img src={Cilene} alt="Cilene" />
               <h2>- Cilene Viana</h2>
+              <hr />
             </Person>
-            <hr />
+
             <Quote>
               <p>
                 Matheus é um ótimo profissional, comprometido e responsável,

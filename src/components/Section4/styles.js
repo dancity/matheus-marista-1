@@ -16,15 +16,20 @@ export const Container = styled.div`
   -moz-box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
 
   > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     width: 80%;
     //padding: 115px 180px;
   }
 
   h1 {
+    text-align: right;
     font-family: Raleway-Thin;
     font-size: 64px;
     margin: 10px;
     margin-bottom: 28px;
+    max-width: 600px;
   }
 
   p {
@@ -34,11 +39,6 @@ export const Container = styled.div`
     line-height: 1.8;
     text-indent: 50px;
     margin-bottom: 30px;
-  }
-
-  p + p + p {
-    text-indent: 0px;
-    margin-bottom: 5px;
   }
 
   span {
@@ -63,10 +63,19 @@ export const Container = styled.div`
 
 export const Skills = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   p:last-child {
     text-indent: 0;
+  }
+
+  h2 {
+    color: #d24a00;
+    font-family: Raleway-Thin;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 10px;
   }
 
   span {

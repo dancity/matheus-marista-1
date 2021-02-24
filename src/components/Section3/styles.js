@@ -19,6 +19,7 @@ export const Container = styled.div`
     font-size: 64px;
     margin: 10px;
     margin-bottom: 28px;
+    max-width: 500px;
   }
 
   p {

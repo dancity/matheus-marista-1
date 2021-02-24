@@ -64,6 +64,7 @@ export const Container = styled.div`
 export const Post = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 
   h1 {
     font-family: Raleway-Thin;
@@ -71,6 +72,7 @@ export const Post = styled.div`
     margin: 10px;
     margin-bottom: 28px;
     text-align: right;
+    max-width: 700px;
   }
 
   p {
