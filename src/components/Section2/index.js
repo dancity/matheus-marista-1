@@ -38,6 +38,13 @@ export default function Section2() {
             de decisão por meio de associações cognitivas enganosas e como isso
             poderia afetar o trabalho de um recrutador.
           </p>
+          <p>
+            Agora, meu próximo desafio é um curso de Pós Graduação online em
+            Business Leadership na University of Queensland que fica na
+            Austrália. O curso começará em breve e estou muito ansioso para
+            aprender ainda mais e me tornar um lider mais competente e
+            inspirador!
+          </p>
         </Post>
       </div>
     </Container>
