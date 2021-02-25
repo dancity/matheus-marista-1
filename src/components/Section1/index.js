@@ -15,21 +15,21 @@ export default function Section1() {
           Marista
         </h2>
         <p>
-          Formado em Dezembro de 2019 pela Faculdade de Administração e Finanças
-          da Universidade do Estado do Rio de Janeiro, iniciei minha trajetória
-          profissional em 2018 como Estagiário de Recursos Humanos na CHC, uma
-          empresa multinacional no ramo de transportes aéreos. Me destaquei por
-          ser um profissional inovador e proativo, conseguindo assim pouco tempo
-          depois ser efetivado como Analista de Recursos Humanos, cargo que
-          exerci até Junho de 2020.
+          Formado em Administração pela Universidade do Estado do Rio de Janeiro
+          (UERJ), iniciei minha trajetória profissional em 2018 como Estagiário
+          de Recursos Humanos na CHC, uma empresa multinacional no ramo de
+          transportes aéreos. Me destaquei por ser um profissional inovador e
+          proativo, conseguindo assim pouco tempo depois ser efetivado como
+          Analista de Recursos Humanos, cargo que exerci até Junho de 2020.
         </p>
         <p>
-          Como ex-aluno Marista, acredito no poder da transformação da sociedade
-          por meio da educação pois ela será cada vez mais essencial na era da
-          informação. Acredito também que as empresas do futuro terão de se
-          adequar às novas tecnologias disruptivas, porém, com a ascenção das
-          soluções tecnológicas aumentará exponencialmente a demanda por
-          relações verdadeiramente <span>Humanas.</span>
+          Sou ex-aluno Marista e acredito no poder da transformação da sociedade
+          por meio da educação. Prezo muito por relações verdadeiramente
+          humanas, pois acredito que num mundo cada vez mais digitalizado, essas
+          relações etrarão numa escassez crescente. Penso que é imprtante formar
+          cidadãos conscientes que utilizem a tecnologia a seu favor, mas que
+          também sejam exemplos de valores éticos e solidários. Vejo na missão
+          marista um profundo alinhamento com esses meus pensamentos.
         </p>
         <p>- Matheus L. Rangel</p>
       </div>

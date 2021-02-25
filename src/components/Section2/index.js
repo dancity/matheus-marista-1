@@ -19,9 +19,17 @@ export default function Section2() {
             objetivo preparar os estudantes para solucionar problemas no campo
             administrativo com ênfase no processo de tomada de decisões em
             empresas de qualquer porte. A grade curricular ampla contempla
-            disciplinas que vai de gestão de pessoas à economia e dá aos alunos
+            disciplinas que vão de gestão de pessoas à economia e dá aos alunos
             a segurança de ter os conhecimentos teóricos necessários para
             enfrentar os desafios práticos do dia-a-dia.
+          </p>
+          <p>
+            Nos 5 desafiantes anos de formação, a faculdade pública me
+            proporcionou o contato com as contradiçoes inerentes à nossa
+            sociedade. Conheci pessoas de vários cantos do Brasil, ricos,
+            pobres, negros e brancos que me ensinaram a respeitar ainda mais
+            essas diferenças e trabalhar para um mundo com mais igualdade de
+            oportunidades.
           </p>
           <p>
             Meu trabalho de conclusão de curso foi uma monografia sobre Vieses
