@@ -26,7 +26,7 @@ export default function Section1() {
           Sou ex-aluno Marista e acredito no poder da transformação da sociedade
           por meio da educação. Prezo muito por relações verdadeiramente
           humanas, pois acredito que num mundo cada vez mais digitalizado, essas
-          relações etrarão numa escassez crescente. Penso que é imprtante formar
+          relações entrarão em escassez crescente. Penso que é imprtante formar
           cidadãos conscientes que utilizem a tecnologia a seu favor, mas que
           também sejam exemplos de valores éticos e solidários. Vejo na missão
           marista um profundo alinhamento com esses meus pensamentos.
