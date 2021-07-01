@@ -20,6 +20,7 @@ import FotoMarista from "../../assets/images/MaristaBrasilia.jpg";
 import Bachareu from "../../assets/images/Bachareu.png";
 import ChcLogo from "../../assets/images/CHCLogo.png";
 import Airswift from "../../assets/images/Airswift.png";
+import Trainees from "../../assets/images/trainees.jpg";
 
 export default function Timeline() {
   return (
@@ -188,7 +189,7 @@ export default function Timeline() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           dateClassName={"date"}
-          date="2021 - Hoje"
+          date="2021"
           iconStyle={{ background: "darkred", color: "#fff" }}
           icon={<MdWork />}
         >
@@ -199,6 +200,21 @@ export default function Timeline() {
 
           <img src={Airswift} alt="Airswift Logo" />
           <p>Ultimo Cargo: Strategic Resourcer</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          dateClassName={"date"}
+          date="Junho de 2021"
+          iconStyle={{ background: "darkred", color: "#fff" }}
+          icon={<MdWork />}
+        >
+          <h3 className="vertical-timeline-element-title">Marista Centro Norte</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Brasília, DF
+          </h4>
+
+          <img src={Trainees} alt="Foto dos Trainees" />
+          <p>Missão bem sucedida: Faço parte dos melhores trainees da galáxia!</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </Container>
